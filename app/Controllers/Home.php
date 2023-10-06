@@ -59,6 +59,14 @@ public function usuario_logueado()
         echo view('front/footer_view');
     }
 
+public function catalogo()
+    {
+          $data ['titulo']='catalogo';
+        echo view('front/head_view',$data);
+        echo view('front/navbar_view');
+        echo view('back/usuario/usuario_logueado');
+        echo view('front/footer_view');
+    }
 
 
 

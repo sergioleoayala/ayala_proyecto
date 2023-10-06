@@ -17,6 +17,7 @@ class Panel_controller extends Controller
         echo view("front/head_view",$data);
         echo view("front/navbar_view");
         echo view("Back/usuario/usuario_logueado",$data);
+        echo view("Back/usuario/catalogo",$data);
         echo view("front/footer_view");
 	}
 }

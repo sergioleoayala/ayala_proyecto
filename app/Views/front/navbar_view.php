@@ -58,6 +58,9 @@ Opciones
 <a class="nav-link active" aria-current="page" href="principal">Principal</a>
 </li>
 <li class="nav-item">
+<a class="nav-link active" aria-current="page" href="/back/usuario/catalogo">Catálogo</a>
+</li>
+<li class="nav-item">
 </li>
 <li class="nav-item dropdown">
 

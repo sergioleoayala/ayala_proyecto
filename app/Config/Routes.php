@@ -36,6 +36,7 @@ $routes->get('acercade', 'Home::acercade');
 $routes->get('registro', 'Home::registro');
 $routes->get('login', 'Home::login');
 $routes->get('usuario_logueado', 'Home::usuario_logueado');
+$routes->get('catalogo', 'Home::catalogo');
 
 /*
  * --------------------------------------------------------------------
