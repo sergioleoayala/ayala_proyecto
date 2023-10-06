@@ -1,0 +1,9 @@
+CRITICAL - 2023-08-22 12:29:49 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\ThirdParty\Kint\Parser\ConstructablePluginInterface.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-22 13:45:19 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\ThirdParty\Kint\Parser\BlacklistPlugin.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-22 13:45:30 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\ThirdParty\Kint\Parser\SimpleXMLElementPlugin.php on line 222.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

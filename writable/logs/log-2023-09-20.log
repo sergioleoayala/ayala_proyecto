@@ -1,0 +1,97 @@
+INFO - 2023-09-20 11:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 11:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 11:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 11:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 11:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 11:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 11:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 11:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:09:15 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\usuario_controller.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-09-20 11:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 11:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 11:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 11:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 11:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 11:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:25:40 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\usuario_controller.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-20 11:26:50 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\usuario_controller.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-09-20 11:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 11:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:29:11 --> "min_lenght" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 286.
+ 1 SYSTEMPATH\Validation\Validation.php(286): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+ 2 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Sergio Leonardo', [...], [...])
+ 3 SYSTEMPATH\Controller.php(141): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\usuario_controller.php(22): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->formValidation()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 13:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 13:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:07:38 --> "min-lenght" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 286.
+ 1 SYSTEMPATH\Validation\Validation.php(286): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-lenght')
+ 2 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Sergio Leonardo', [...], [...])
+ 3 SYSTEMPATH\Controller.php(141): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\usuario_controller.php(22): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->formValidation()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 13:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:13:15 --> "max_length " is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 286.
+ 1 SYSTEMPATH\Validation\Validation.php(286): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('max_length ')
+ 2 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('apellido', 'apellido', 'Ayala', [...], [...])
+ 3 SYSTEMPATH\Controller.php(141): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\usuario_controller.php(22): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->formValidation()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 13:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:16:08 --> "is_unique[
+ 			usuarios.email]" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 286.
+ 1 SYSTEMPATH\Validation\Validation.php(286): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('is_unique[
+ 			usuarios.email]')
+ 2 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('email', 'email', 'sergiodark.sa@gmail.com', [...], [...])
+ 3 SYSTEMPATH\Controller.php(141): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\usuario_controller.php(22): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->formValidation()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 13:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:18:59 --> Invalid file: "front/nav_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/nav_view.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/nav_view', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(34): view('front/nav_view')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->formValidation()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 13:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 13:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 13:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 13:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 22:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 22:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 22:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 22:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 23:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 23:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 23:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
